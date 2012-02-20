@@ -1,0 +1,4 @@
+SetHandler mod_python
+PythonHandler mod_python.publisher
+PythonPath "['/home/jonathan/domains/lan69.com/public_html/btc'] + sys.path"
+PythonDebug On

@@ -1,0 +1,34 @@
+pyCoin - Python Bitcoin "Payment Gateway"
+=========================================
+
+What is it?
+-----------
+
+pyCoin is a simple "payment gateway" to help facilitate receiving Bitcoin 
+payments from your customers for particular services.  This script was made 
+at first to accept pre-pay registrations for a LAN party.  Each user fills 
+out a simple contact form and is then given a unique address to send their 
+payment to.
+
+
+Install pre-requisites
+----------------------
+
+`simplejson` and `bitcoin-python` are required.  They can be installed by running
+`pip install simplejson bitcoin-python`
+
+
+ToDo List
+---------
+
+* Recycling of addresses
+* Email confirmations that coins have been received
+* Utilization of the Bitcoin client's "Account" functions
+* (your idea here?)
+
+
+I love it!  How can I help out?
+-------------------------------
+
+Pull requests for bug fixes and added features are certainly welcome.
+Donations in bitcoins are welcome to _13iGUEL2yuu46J3j1uJkD2EKTtQZTqNXgm_
